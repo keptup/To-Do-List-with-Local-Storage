@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  content: border-box;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  border: 1.5px solid rgba(254, 191, 105, 0.7);
+  border-radius: 1.5em;
+  margin: 1em auto;
+  padding: 0.8em 1.3em;
+  width: 45%;
+  color: rgb(54, 56, 63);
+  cursor: pointer;
+}
+
+li:hover {
+  background: rgba(254, 191, 105, 0.4);
+}
+
+form {
+  display: flex;
+}
+
+.header {
+  background-color: rgb(54, 56, 63);
+  padding: 1.3em 1.2em;
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 2em 0 0 2em;
+}
+
+.container {
+  font-family: Lato;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  height: 3em;
+  font-size: 1em;
+  color: white;
+  background: #febf69;
+  border: none;
+  border-bottom-right-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  padding-left: 0.9em;
+}
+
+.input::placeholder {
+  color: white;
+  opacity: 0.7;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 1px 1px 9px 0px rgba(254, 191, 105, 0.75);
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.plussign-circle {
+  display: relative;
+  width: 4.2em;
+  height: 4.2em;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #febf69;
+  opacity: 1;
+}
+
+.plussign-circle:hover {
+  opacity: 0.78;
+}
+
+.plus-vertical {
+  position: absolute;
+  height: 25px;
+  width: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  background-color: #febf69;
+}
+
+.plus-horizontal {
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  background-color: #febf69;
+}
+
+.far {
+  cursor: pointer;
+  float: right;
+  color: #febf69;
+  padding-right: 0.4em;
+}
+
+.clear-div {
+  text-align: center;
+}
+
+.clear-btn {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  font-size: 1em;
+  border-radius: 1.5em;
+  margin: 1em auto;
+  padding: 0.7em 1.3em;
+  width: 7em;
+  background-color: #febf69;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  opacity: 0.8;
+}
